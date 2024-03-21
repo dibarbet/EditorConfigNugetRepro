@@ -1,0 +1,4 @@
+is_global = true
+
+dotnet_diagnostic.IDE0004.severity = error
+
