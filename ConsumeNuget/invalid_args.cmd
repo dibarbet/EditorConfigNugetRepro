@@ -1,0 +1,1 @@
+"C:\Program Files\dotnet\dotnet.exe" exec "C:\Program Files\dotnet\sdk\8.0.103\Roslyn\bincore\csc.dll" @invalid_args.rsp

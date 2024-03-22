@@ -1,4 +1,5 @@
 $env:MSBUILDLOGALLENVIRONMENTVARIABLES=1
+$env:RESTORENOCACHE=true
 Write-Host ""
 Write-Host "---- Running *WITHOUT* trailing slash ----" -ForegroundColor Green
 $env:NUGET_PACKAGES="$PSScriptRoot\\packages"
