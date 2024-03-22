@@ -1,6 +1,6 @@
 echo ""
 echo "---- Running *WITHOUT* trailing slash ----"
-export NUGET_PACKAGES="$PWD/packages"
+export NUGET_PACKAGES="$PWD//packages"
 echo "Using NUGET_PACKAGES directory: $NUGET_PACKAGES"
 
 git clean -xdf
@@ -14,7 +14,7 @@ echo ""
 echo ""
 
 echo "---- Running *WITH* trailing slash ----"
-export NUGET_PACKAGES="$PWD/packages/"
+export NUGET_PACKAGES="$PWD//packages/"
 echo "Using NUGET_PACKAGES directory: $NUGET_PACKAGES"
 
 git clean -xdf
