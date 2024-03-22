@@ -12,4 +12,8 @@
     <PackageReference Include="NugetPackageWithEditorConfig" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- <GlobalAnalyzerConfigFiles Include=".globalconfig" /> -->
+  </ItemGroup>
+
 </Project>
